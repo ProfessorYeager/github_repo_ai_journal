@@ -1,4 +1,14 @@
 const journalEntries = [
+
+    {
+        id: 'guilds-and-workouts',
+        title: 'Squad Goals & Sweat: Building Guilds & Workouts 🛡️💪',
+        date: '2025-11-22',
+        excerpt: 'Shipping the new Guilds system and Active Workout tracking. It is time to team up!',
+        tags: ['Feature Drop', 'React', 'Community'],
+        file: 'journal/update-1763843531.md',
+        image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1000&auto=format&fit=crop'
+    },
     {
         id: 'project-deep-dive',
         title: 'Project Deep Dive: RPG Fitness App',

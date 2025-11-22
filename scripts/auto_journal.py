@@ -193,9 +193,10 @@ def update_entries_js(entry_id, title, filename):
     with open(entries_js_path, 'r') as f:
         content = f.read()
     
+    escaped_title = title.replace("'", "\\'")
     new_entry_obj = f"""    {{
         id: '{entry_id}',
-        title: '{title.replace("'", "\\'")}',
+        title: '{escaped_title}',
         date: '{datetime.datetime.now().strftime('%Y-%m-%d')}',
         excerpt: 'Automated update powered by AI.',
         tags: ['Update', 'AI-Generated'],

@@ -1,0 +1,54 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#485B6E;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="500" height="500" fill="url(#grad1)" rx="50" ry="50" />
+    
+    <!-- Abstract Brain / Circuit Network -->
+    <g transform="translate(250, 250)" stroke="#98FF98" stroke-width="8" stroke-linecap="round" filter="url(#glow)">
+        <!-- Central Node -->
+        <circle cx="0" cy="0" r="20" fill="#98FF98" />
+        
+        <!-- Inner Ring Connections -->
+        <line x1="0" y1="0" x2="0" y2="-80" />
+        <line x1="0" y1="0" x2="70" y2="-40" />
+        <line x1="0" y1="0" x2="70" y2="40" />
+        <line x1="0" y1="0" x2="0" y2="80" />
+        <line x1="0" y1="0" x2="-70" y2="40" />
+        <line x1="0" y1="0" x2="-70" y2="-40" />
+        
+        <!-- Outer Nodes -->
+        <circle cx="0" cy="-80" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        <circle cx="70" cy="-40" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        <circle cx="70" cy="40" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        <circle cx="0" cy="80" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        <circle cx="-70" cy="40" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        <circle cx="-70" cy="-40" r="12" fill="#485B6E" stroke="#98FF98" stroke-width="4" />
+        
+        <!-- Outer Ring Connections -->
+        <line x1="0" y1="-80" x2="70" y2="-40" opacity="0.6" />
+        <line x1="70" y1="-40" x2="70" y2="40" opacity="0.6" />
+        <line x1="70" y1="40" x2="0" y2="80" opacity="0.6" />
+        <line x1="0" y1="80" x2="-70" y2="40" opacity="0.6" />
+        <line x1="-70" y1="40" x2="-70" y2="-40" opacity="0.6" />
+        <line x1="-70" y1="-40" x2="0" y2="-80" opacity="0.6" />
+        
+        <!-- Tech Accents -->
+        <circle cx="0" cy="0" r="120" fill="none" stroke="#667eea" stroke-width="2" stroke-dasharray="10 10" opacity="0.5" />
+    </g>
+    
+    <!-- Text (Optional, usually profile pics are small so maybe skip text, or put initials) -->
+    <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#98FF98" letter-spacing="4">PY</text>
+</svg>
