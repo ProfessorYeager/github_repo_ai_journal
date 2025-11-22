@@ -1,0 +1,8 @@
+{
+    "target_repo_path": "/Users/gabrielyeager/Applications/github_repo_ai_journal/rpg_fitness_app_link",
+    "journal_repo_path": "/Users/gabrielyeager/Applications/github_repo_ai_journal",
+    "check_interval_minutes": 15,
+    "ai_provider": "openai",
+    "model_name": "gpt-4o",
+    "api_key": "INSERT_API_KEY_HERE"
+}
