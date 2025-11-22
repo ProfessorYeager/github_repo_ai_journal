@@ -1,4 +1,31 @@
 const journalEntries = [
+    {
+        id: 'update-1763849834',
+        title: 'Update: 4 modified files',
+        date: '2025-11-22',
+        excerpt: 'Automated update powered by AI.',
+        tags: ['Update', 'AI-Generated'],
+        file: 'journal/update-1763849834.md',
+        image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop'
+    },
+    {
+        id: 'update-1763848934',
+        title: 'Update: 2 new files',
+        date: '2025-11-22',
+        excerpt: 'Automated update powered by AI.',
+        tags: ['Update', 'AI-Generated'],
+        file: 'journal/update-1763848934.md',
+        image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop'
+    },
+    {
+        id: 'update-1763848033',
+        title: 'Update: 1 modified files, 1 deleted files',
+        date: '2025-11-22',
+        excerpt: 'Automated update powered by AI.',
+        tags: ['Update', 'AI-Generated'],
+        file: 'journal/update-1763848033.md',
+        image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop'
+    },
 
     {
         id: 'guilds-and-workouts',
