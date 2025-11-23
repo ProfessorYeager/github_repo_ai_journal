@@ -79,10 +79,10 @@ Keep this terminal window open to keep the watcher running.
     -   Select `main` branch and `/ (root)` folder.
     -   Save! Your journal is now live.
 
-### Daily Routine
-1.  **Let the Watcher Run**: The script will create new entries automatically.
-2.  **Review**: Open GitHub Desktop to see the new files.
-3.  **Push**: Click **Commit** and **Push origin**.
-4.  Your website updates automatically!
+### Daily Routine (Agent-Assisted)
+1.  **Code**: Work on your projects as usual.
+2.  **Ask**: When you're ready for an update, just tell Antigravity: *"Check for updates and write a journal entry."*
+3.  **Review**: I will generate a high-quality, social-media style post for you.
+4.  **Push**: Open GitHub Desktop, commit, and push!
 
 Enjoy building!
