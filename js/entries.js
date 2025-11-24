@@ -8,15 +8,7 @@ const journalEntries = [
         file: 'journal/reflection-weekend-sprint.md',
         image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1000&auto=format&fit=crop'
     },
-    {
-        id: 'update-1763980071',
-        title: 'Update: 5 new files, 15 modified files',
-        date: '2025-11-24',
-        excerpt: 'Automated update powered by AI.',
-        tags: ['Update', 'AI-Generated'],
-        file: 'journal/update-1763980071.md',
-        image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop'
-    },
+
 
     {
         id: 'guilds-and-workouts',
